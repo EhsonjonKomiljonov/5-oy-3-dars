@@ -1,0 +1,57 @@
+.today {
+  width: 100%;
+  max-width: 780px;
+  padding: 32px 32px 32px 32px;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    div:last-child {
+      display: flex;
+      align-items: center;
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 19px;
+      line-height: 24px;
+      letter-spacing: 0.4px;
+      color: #252733;
+    }
+    time {
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.1px;
+      color: #9fa2b4;
+    }
+
+    p {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.1px;
+      color: #9fa2b4;
+    }
+
+    p + p {
+      margin-left: 32px;
+    }
+
+    .today__rating:nth-child(2) {
+      span {
+        background-color: #dfe0eb;
+      }
+    }
+
+    span {
+      display: inline-block;
+      width: 16px;
+      height: 2px;
+      margin-right: 8px;
+      background-color: #3751ff;
+    }
+  }
+}

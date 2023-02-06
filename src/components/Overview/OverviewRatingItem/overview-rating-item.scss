@@ -1,0 +1,26 @@
+.ratings__item {
+  padding: 24px 32px;
+
+  h3 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #9fa2b4;
+  }
+  ins {
+    display: block;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    color: #252733;
+  }
+}
+
+.ratings__item + .ratings__item {
+  border-top: 1px solid #dfe0eb;
+}

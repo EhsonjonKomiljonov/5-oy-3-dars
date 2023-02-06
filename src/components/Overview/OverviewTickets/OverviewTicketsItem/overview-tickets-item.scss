@@ -1,0 +1,27 @@
+.tickets__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px;
+
+  h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+  }
+
+  ins {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: #9fa2b4;
+  }
+}
+
+.tickets__item + .tickets__item {
+  border-top: 1px solid #dfe0eb;
+}

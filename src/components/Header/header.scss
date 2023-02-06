@@ -1,0 +1,15 @@
+.site-header {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  max-width: 255px;
+  height: 100vh;
+  padding: 37px 0;
+  background-color: #363740;
+}
+
+.site-header__inner {
+  a {
+    padding: 21.5px 0 21.5px 32px;
+  }
+}

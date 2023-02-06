@@ -1,0 +1,50 @@
+.overview-header {
+  padding: 22px 0 44px;
+  background-color: #f7f8fc;
+}
+
+.overview-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.overview-header__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #252733;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  button {
+    background-color: transparent;
+    border: 0;
+    padding: 14px 0;
+  }
+
+  button + button {
+    margin-left: 25px;
+    padding-right: 32px;
+    border-right: 1px solid #dfe0eb;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 32px;
+
+    button {
+      padding: 2px;
+      margin-left: 16px;
+      border: 2px solid #dfe0eb;
+      border-radius: 50%;
+    }
+  }
+}

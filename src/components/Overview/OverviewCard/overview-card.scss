@@ -1,0 +1,48 @@
+.card {
+  display: inline-block;
+  width: 258px;
+  margin-bottom: 30px;
+  padding: 24px 32px;
+  background-color: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border: 1px solid #3751ff;
+
+    .card__title {
+      color: #3751ff;
+    }
+
+    .card__number {
+      color: #3751ff;
+    }
+  }
+
+  &__title {
+    margin: 0 0 12px;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #9fa2b4;
+    transition: all 0.2s ease;
+  }
+
+  &__number {
+    display: block;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #252733;
+    transition: all 0.2s ease;
+  }
+}
+
+.card + .card {
+  margin-left: 29px;
+}

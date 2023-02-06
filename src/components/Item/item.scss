@@ -1,0 +1,19 @@
+.nav {
+  margin-top: 59px;
+}
+
+.nav__item:hover {
+  background-color: #3f4049;
+}
+
+.nav__link {
+  display: block;
+  padding: 21.5px 0 21.5px 32px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #a4a6b3;
+  img {
+    margin-right: 24px;
+  }
+}
